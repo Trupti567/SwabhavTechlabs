@@ -10,7 +10,7 @@ public class EmployeeTest {
 		
 		employee1.setFname("Trupti");
 		employee1.setLname("Mahale");
-		employee1.setId(101);
+		//employee1.setId(101);
 		employee1.setSalary(100000);
 		employee1.setCommision(0.10f);
 		
@@ -20,7 +20,7 @@ public class EmployeeTest {
 		
 		employee2.setFname("Manju");
 		employee2.setLname("Mahale");
-		employee2.setId(102);
+		//employee2.setId(102);
         employee2.setSalary(12000);
         employee2.setCommision(0.10f);
         
@@ -28,7 +28,7 @@ public class EmployeeTest {
         
         employee3.setFname("Tushar");
         employee3.setLname("Jadhav");
-        employee3.setId(103);
+        //employee3.setId(103);
         employee3.setSalary(30000);
         employee3.setCommision(0.20f);
       

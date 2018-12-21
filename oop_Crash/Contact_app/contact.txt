@@ -1,0 +1,5 @@
+ FirstName,LastName,PhoneNO,AnnualSalary
+ Trupti,Mahale,8691847635,300000
+ Nikia ,Jadhav,8652602922,350000
+ Aditya,Gharat,8652213362,200000
+ Manjusha,Mahale,8652602933,25000
