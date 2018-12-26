@@ -9,7 +9,7 @@ import com.techlabs.reflectionstudy.Reflection;
 public class ReflectionTest {
 	public static void main(String args[])
 	{
-		Reflection reflection=new Reflection(FileWriter.class);
+		Reflection reflection=new Reflection(RuntimeException.class);
 		int no=reflection.noOfConstructors();
 		System.out.println("No of Constructors in Class are " +no);
 		Method method[]=reflection.noOfMethods();
