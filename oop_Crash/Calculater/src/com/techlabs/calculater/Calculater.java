@@ -5,7 +5,7 @@ public class Calculater {
 	{
 		int a, b;
 		try{
-		addNumbers(-10, 20);
+		addNumbers(-10, -20);
 		}
 		catch(NegativeNotSupportException nx)
 		{

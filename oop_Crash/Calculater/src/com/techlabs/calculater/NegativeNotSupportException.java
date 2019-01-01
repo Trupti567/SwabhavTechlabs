@@ -19,8 +19,16 @@ public class NegativeNotSupportException extends RuntimeException {
 
 	public String toString() {
 
-		return String.format("Addition is not possible due to negative number "
-				+ this.num1+" "+this.num2);
-	}
+		if (this.num1 < 0&&this.num2<0) {
+			return String.format("Both Numbers are negative hence Addition is not performed" + this.num1 + "  " + this.num2);
+			
+		} else if (this.num1 < 0) {
+			return String
+					.format(" Addition is not possible because one number is = "
+							+ this.num1);
+		}
+		return String.format(" Addition is not possible because one number is = "
+				+ this.num2);
 
+	}
 }
