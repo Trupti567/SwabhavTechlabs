@@ -1,14 +1,15 @@
-package com.techlabs.arraylist;
+package com.techlabs.testListopperation;
 
 import java.awt.List;
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class TestIntArraylist {
 	
 	public static void main(String args[])
 	{
 		ArrayList<Integer> array=new ArrayList<Integer>();
-		array.add(10);
+		array.add(80);
 		array.add(20);
 		array.add(30);
 		array.add(40);
@@ -20,6 +21,9 @@ public class TestIntArraylist {
 		System.out.println("Updating : "+array);
 		array.remove(3);
 		System.out.println(" Deleting : "+array);
+		Collections.sort(array);
+		System.out.println(array);
+		
 	}
 	
 

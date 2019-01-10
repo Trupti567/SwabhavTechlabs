@@ -3,7 +3,7 @@ package com.techlab.arrayspliting;
 public class ArraySplit {
 	public static void main(String args[]) {
 		int numbers[] = { 10, 20, 30, 40, 50, 60 };
-		Object[] splitArray2 = subArrays(numbers, 2);
+		Object[] splitArray2 = subArrays(numbers, 4);
 		for (Object result : splitArray2) {
 			int[] slice1 = (int[]) result;
 			for (int no : slice1) {

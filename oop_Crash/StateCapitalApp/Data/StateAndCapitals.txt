@@ -1,0 +1,7 @@
+maharashtra:mumbai
+goa:panji
+gujrat:gandhinagar
+hariyana:chandigarh
+madhyapradesh:bhopal
+nagaland:koshima
+himachalpradesh:shimla
